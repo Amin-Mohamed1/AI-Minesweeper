@@ -1,5 +1,5 @@
 # Minesweeper Game
-
+![image](https://github.com/user-attachments/assets/5eff838f-1d64-4821-a134-4faa2272f4f1)
 ## Project Description
 
 This project implements a Minesweeper game with an AI player. The game is played on an 8x8 grid where some cells contain hidden mines. The player's objective is to uncover all safe cells without triggering any mines. The AI player makes logical decisions based on available information, marking cells as safe or containing mines and updating its knowledge as more of the board is revealed.
