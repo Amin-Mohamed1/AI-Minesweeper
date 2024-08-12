@@ -37,7 +37,6 @@ This project implements a Minesweeper game with an AI player. The game is played
   - `__init__(self, cells, count)`: Initializes the sentence with a set of cells and a mine count.
   - `__eq__(self, other)`: Checks if two sentences are equal.
   - `__str__(self)`: Returns a string representation of the sentence.
-  - `__hash__(self)`: Returns the hash value of the sentence.
   - `known_mines(self)`: Returns the set of all cells in `self.cells` known to be mines.
   - `known_safes(self)`: Returns the set of all cells in `self.cells` known to be safe.
   - `mark_mine(self, cell)`: Marks a cell as a mine in the sentence.
